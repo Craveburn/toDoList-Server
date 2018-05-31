@@ -1,0 +1,25 @@
+{
+  "name": "todolist-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Craveburn/toDoList-Server.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Craveburn/toDoList-Server/issues"
+  },
+  "homepage": "https://github.com/Craveburn/toDoList-Server#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "mongodb": "^3.1.0-beta4",
+    "nodemon": "^1.17.5"
+  }
+}
