@@ -25,12 +25,10 @@ app.post('/list', async (req, res) => {
     const newItem = req.body
     const savedItem = await listCollection.insert(newItem)
     res.send(savedItem)
-    console.log("hit the post")
 })
 
 app.delete('/list', async (req, res) => {
     const deleteItem = req.body.id
-    console.log("delted item", deleteItem)
     const beGone = await listCollection.remove(deleteItem)
     res.send(deleteItem)
 
